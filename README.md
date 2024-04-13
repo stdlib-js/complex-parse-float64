@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@deno/mod.js';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@v0.1.0-deno/mod.js';
 ```
 
 #### parseComplex128( str )
@@ -98,7 +98,7 @@ For details on the string format, see [Complex128][@stdlib/complex/float64].
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@deno/mod.js';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@v0.1.0-deno/mod.js';
 import isComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@deno/mod.js';
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@deno/mod.js';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@deno/mod.js';
