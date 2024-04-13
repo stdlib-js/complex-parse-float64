@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-parse-float64/tags). For example,
+
+```javascript
 import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@v0.1.0-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ For details on the string format, see [Complex128][@stdlib/complex/float64].
 <body>
 <script type="module">
 
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@v0.1.0-esm/index.mjs';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-parse-float64@esm/index.mjs';
 import isComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@esm/index.mjs';
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@esm/index.mjs';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@esm/index.mjs';
